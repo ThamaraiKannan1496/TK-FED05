@@ -1,0 +1,431 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+
+/* ============Global Values========== */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* html {
+  font-size: 10px;
+} */
+body {
+  line-height: 1;
+}
+
+/* ============Global Values end========== */
+
+/* resetted values */
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.row > * {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.col-lg-1 {
+  width: 8.33%;
+}
+.col-lg-2 {
+  width: 16.66%;
+}
+.col-lg-3 {
+  width: 25%;
+}
+.col-lg-4 {
+  width: 33.33%;
+}
+.col-lg-5 {
+  width: 41.66%;
+}
+.col-lg-6 {
+  width: 50%;
+}
+.col-lg-7 {
+  width: 58.33%;
+}
+.col-lg-8 {
+  width: 66.66%;
+}
+.col-lg-9 {
+  width: 75%;
+}
+.col-lg-10 {
+  width: 83.33%;
+}
+.col-lg-11 {
+  width: 91.66%;
+}
+.col-lg-12 {
+  width: 100%;
+}
+
+.justify-start {
+  justify-content: flex-start !important;
+}
+.justify-end {
+  justify-content: flex-end !important;
+}
+.justify-center {
+  justify-content: center !important;
+}
+.justify-space-around {
+  justify-content: space-around !important;
+}
+.justify-space-between {
+  justify-content: space-between !important;
+}
+.justify-evenly {
+  justify-content: space-evenly !important;
+}
+
+.align-item-start {
+  align-items: flex-start !important;
+}
+.align-item-end {
+  align-items: flex-end !important;
+}
+.align-item-center {
+  align-items: center !important;
+}
+.align-item-baseline {
+  align-items: baseline !important;
+}
+.align-item-stretch {
+  align-items: stretch !important;
+}
+
+/* resetted values */
+
+/* ========Header Style starts============*/
+.header-top{
+	background-color: #000;
+    border-bottom: solid 1px #a8dadc;
+}
+.header-info{
+    background-color: #B9E0FF;
+    padding: 5px 0;
+}
+.contact-info{
+    height: 50px;
+    background-color: #000;
+}
+.info-btn{
+    background-color: #000;
+    height: 100%;
+}
+.nav-section{
+    padding: 5px 0;
+}
+h1.logo{
+    background-color: #FFF6BF;
+    height: 50px;
+}
+.navbar{
+    background-color: #FFF6BF;
+    height: 50px;
+}
+/* ========Header Style ends============*/
+
+/* ========Banner Style starts============*/
+.banner{
+	background-color: #000;
+    border-bottom: solid 1px #a8dadc;
+}
+.banner-cont{
+    background-color: #B9E0FF;
+    padding: 50px 0 150px 0;
+	
+}
+.banner-info{
+    height: 300px;
+	width:100%;
+    background-color: #FFF6BF;
+}
+/* ========Banner Style ends============*/
+
+
+/* ========Card section Style starts============*/
+.card-section{
+	 background-color: #000;
+}
+.card-cont{
+   
+	position:relative;
+	top:-85px;
+    /* padding: 5px;	 */
+}
+.card-left{
+	height:350px;
+	background-color: #FFF6BF;
+	width:100%;
+}
+.card-right{
+	height:250px;
+	width:100%;
+	background-color: #FFF6BF;
+}
+
+
+/* ========Card section Style ends============*/
+
+
+/* ========image-info section Style starts============*/
+.image-info{
+    border-bottom: solid 1px #a8dadc;
+	 background-color: #fff;
+	 padding:60px 0;
+}
+.image-left{
+	width:100%;
+	height:500px;
+	background-color: #FFF6BF;
+    /* padding: 5px;	 */
+}
+.cont-right{
+	height:500px;
+	width:100%;
+	background-color: #FFF6BF;
+}
+
+
+/* ========image-info section Style ends============*/
+
+/* ========client section Style starts============*/
+.client-sec-cont{
+    border-bottom: solid 1px #a8dadc;
+	 background-color: #000;
+	 padding:60px 0;
+}
+.client-image{
+	width:100%;
+	height:90px;
+	background-color: #FFF6BF;
+}
+/* ======== client section Style ends============*/
+
+/* ========Service section Style starts============*/
+.service-sec-cont{
+    /* border-bottom: solid 1px #a8dadc; */
+	 background-color: #D6E4E5;
+	 padding:60px 0;
+}
+.service-head{
+	margin-bottom:25px;
+	width:100%;
+	height:60px;
+	background-color: #FFF6BF;
+}
+.service-card{
+	width:100%;
+	height:180px;
+	background-color: #FFF6BF;
+	margin-bottom:25px;
+}
+/* ======== Service section Style ends============*/
+
+/* ========Service card section Style starts============*/
+.service-card-sec-cont{
+    /* border-bottom: solid 1px #a8dadc; */
+	 background-color: #000;
+	 padding:60px 0;
+}
+.service-card-image{
+	width:100%;
+	height:300px;
+	background-color: #FFF6BF;
+	margin-bottom:25px;
+}
+/* ======== Service Card section Style ends============*/
+
+
+
+/* ========Service card section Style starts============*/
+
+.carasoul-cont{
+	width:100%;
+	height:500px;
+	background-color: #FFF6BF;
+	padding:100px 0;
+}
+
+.carasoul-cont-details{
+    /* border-bottom: solid 1px #a8dadc; */
+	height:300px;
+	background-color: #000;
+}
+/* ======== Service Card section Style ends============*/
+
+/* ========portfolio section Style starts============*/
+.portfolio-sec-cont{
+     background-color: #D6E4E5;
+	 padding:60px 0;
+}
+.portfolio-head{
+	margin-bottom:25px;
+	width:100%;
+	height:100px;
+	background-color: #FFF6BF;
+}
+.image-card{
+	width:100%;
+	height:270px;
+	background-color: #FFF6BF;
+	margin-bottom:25px;
+}
+/* ======== Portfolio section Style ends============*/
+
+/* ========Team section Style starts============*/
+.team-sec-cont{
+     background-color: #000;
+	 padding:60px 0;
+}
+.team-head{
+	margin-bottom:25px;
+	width:100%;
+	height:100px;
+	background-color: #FFF6BF;
+}
+.team-card{
+	width:100%;
+	height:275px;
+	background-color: #FFF6BF;
+}
+/* ======== Team section Style ends============*/
+
+/* ========pricing section Style starts============*/
+.pricing-sec-cont{
+	 background-color: #c5c5c5;
+	 padding:60px 0;
+}
+.pricing-head{
+	margin-bottom:25px;
+	width:100%;
+	height:100px;
+	background-color: #FFF6BF;
+}
+.pricing-card{
+	width:100%;
+	height:370px;
+	background-color: #FFF6BF;
+}
+/* ======== pricing section Style ends============*/
+
+
+/* ========faq section Style starts============*/
+.faq-sec-cont{
+	 background-color: #000;
+	 padding:60px 0;
+}
+.faq-head{
+	width:100%;
+	height:100px;
+	background-color:#FFF6BF;
+	margin-bottom:25px;
+}
+.faq-card{
+	width:100%;
+	height:60px;
+	background-color: #FFF6BF;
+	margin-bottom:15px;
+}
+/* ======== faq section Style ends============*/
+
+
+/* ========Contact section Style starts============*/
+.contact-sec-cont{
+	 background-color: #B9E0FF;
+	 padding:60px 0;
+}
+.contact-head{
+	width:100%;
+	height:80px;
+	background-color:#FFF6BF;
+	margin-bottom:25px;
+}
+.contact-card{
+	width:100%;
+	height:180px;
+	background-color: #FFF6BF;
+	margin-bottom:15px;
+}
+.contact-farm{
+	height:320px;
+	background-color: #FFF6BF;
+}
+/* ======== Contact section Style ends============*/
+
+
+
+/* ========footer link section Style starts============*/
+.foot-link-sec-cont{
+	 background-color: #D6E4E5;
+	 padding:60px 0;
+}
+.fcard{
+	height:250px;
+	background-color: #FFF6BF;
+}
+/* ======== footer link section Style ends============*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========footer section Style starts============*/
+.footer-content{
+	 background-color: #000;
+	 padding:15px 0;
+}
+.copy{
+	width:100%;
+	height:50px;
+	background-color: #FFF6BF;
+}
+.media{
+	width:100%;
+	height:50px;
+	background-color: #FFF6BF;
+}
+/* ======== footer section Style ends============*/
+
+
+/* back to home button */
+ 	.home{
+	position:fixed;
+	bottom:25px;
+	right:35px;
+	}
+	.home a{
+	display:inline-block;
+	color:white;
+	background-color:blue;
+	padding:10px 25px;
+	border-radius:25px;
+	text-decoration:none;
+	font-family:sans-serif;
+	font-size:20px;
+	
+	}
+  
+  /* back to home button */
