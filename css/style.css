@@ -12,7 +12,7 @@ body {
 /* resetted values */
 
 .container {
-  width: 1220px;
+  width: 1310px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -113,6 +113,7 @@ body {
   font-family: sans-serif;
 }
 .heading {
+  font-size: 32px;
   font-weight: 700;
   color: #5f9df7;
 }
@@ -140,11 +141,12 @@ body {
   padding: 35px 0;
 }
 .cards {
-  background-color: #e5d9b6;
+  background-color: #eee9db;
   height: 450px;
-  border-radius: 10px;
-  box-shadow: 0 0 5px #000;
+  border-radius: 25px;
+  box-shadow: 0 0 5px 5px #c5c5c5;
   margin-bottom: 35px;
+  transition: 0.3s;
 }
 .card-img img {
   border-radius: 20px;
@@ -159,33 +161,34 @@ body {
 }
 .card-info h2 {
   font-family: "Roboto", sans-serif;
-  font-size: 28px;
-  color: #0e5e6f;
+  font-size: 24px;
+  color: #1671fa;
 }
 .card-info p {
   font-family: "Roboto", sans-serif;
-  font-size: 18px;
-  color: #000;
+  font-size: 16px;
+  color: #717171;
   padding: 10px;
 }
 .card-info a {
   display: inline-block;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
-  font-size: 23px;
+  font-size: 18px;
   letter-spacing: 1px;
-  background-color: blue;
+  background-color: rgb(61, 61, 252);
   color: #fff;
-  border-radius: 25px;
-  padding: 9px 25px;
+  border-radius: 8px;
+  padding: 10px 25px;
+  transition: 0.3s;
 }
 .cards:hover .card-img img {
-  scale: 1.05;
-  transition: 0.5s;
+  scale: 1.02;
+  transition: 0.3s;
 }
 .card-info a:hover {
-  background-color: black;
-  color: white;
+  background-color: rgb(44, 44, 44);
+  color: wheat;
   cursor: pointer;
 }
 /* Card-CSS-ends*/
