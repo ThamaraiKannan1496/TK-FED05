@@ -1,0 +1,453 @@
+/* XXL--->Style.css */
+@media (min-width: 1400px) {
+  .d-block {
+    display: block !important;
+  }
+}
+/* XL */
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .wid-container {
+    width: 95%;
+  }
+  .d-block {
+    display: block !important;
+  }
+}
+/* Large */
+@media (min-width: 993px) and (max-width: 1200px) {
+  .wid-container {
+    width: 95%;
+  }
+  .d-block {
+    display: block !important;
+  }
+  .d-nav {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+  }
+  .nav-bar-cont {
+    width: 100%;
+  }
+  .nav-bar-cont ul li a {
+    padding-left: 15px;
+  }
+  .test-card-none {
+    display: none;
+  }
+  .testimonial-cards {
+    width: 100%;
+  }
+}
+/* tablet */
+@media (min-width: 769px) and (max-width: 992px) {
+  .wid-container {
+    width: 100%;
+  }
+  .d-nav {
+    display: none !important;
+  }
+  /* Header */
+  .nav-bar-cont {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .head-top-cont {
+    width: 85%;
+    margin: 0 auto;
+  }
+  /* Banner */
+  .banner-cont {
+    padding-top: 150px;
+  }
+  .banner-left {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .banner-right {
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+  /* about */
+  .about-cont {
+    flex-direction: column-reverse;
+  }
+  .about-left {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  .about-right {
+    width: 80%;
+    margin: 0 auto;
+    padding: 60px 0;
+    padding-bottom: 20px;
+  }
+  /* why choose */
+  .why-head {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .why-card {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    min-height: 300px;
+  }
+  /* menu */
+
+  .event-right h3 {
+    margin-top: 30px;
+  }
+  .menu-head,
+  .menu-list-left,
+  .menu-list-right,
+  .specials-head,
+  .spl-left,
+  .spl-right,
+  .spl-mid,
+  .events-head,
+  .event-left,
+  .event-right,
+  .book-head,
+  .testimonial-head,
+  .testimonial-cards,
+  .book-form,
+  .gallery-head,
+  .chefs-head,
+  .chef-container,
+  .contact-head,
+  .contact-left,
+  .footer-sec-cont {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .menu-cont > .menu-head {
+    margin: 0;
+    width: 100%;
+  }
+  .spl-right img {
+    margin-bottom: 20px;
+  }
+  .spl-left::after,
+  .test-card-none {
+    display: none;
+  }
+  .spl-right {
+    order: 2;
+  }
+  .spl-mid {
+    order: 3;
+  }
+
+  .btop-name,
+  .btop-email,
+  .btop-number,
+  .btop-date,
+  .btop-time,
+  .btop-people {
+    width: 49%;
+  }
+  .gallery-image {
+    width: 33.33%;
+  }
+  .chef-card {
+    width: 48%;
+    margin-bottom: 30px;
+  }
+  .contact-right-form {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .ftop-name,
+  .ftop-email {
+    width: 48.5%;
+  }
+  .address-link,
+  .links-link,
+  .services-link,
+  .subscribe-link {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .services-link,
+  .subscribe-link {
+    margin-top: 30px;
+  }
+}
+/* Small tabs */
+@media (min-width: 577px) and (max-width: 768px) {
+  .wid-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .d-nav {
+    display: none !important;
+  }
+  .header-icon {
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .icon-left {
+    margin-left: 10px;
+  }
+  .icon-left span {
+    padding-right: 10px !important;
+  }
+  .banner-left {
+    width: 100%;
+    text-align: center;
+  }
+  .banner-left h2 {
+    font-size: 28px;
+  }
+  .banner-left h4 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .banner-btn {
+    margin-left: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  .banner-right {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .about-left {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    order: 2;
+  }
+  .about {
+    min-height: 100vh;
+    padding: 35px 0;
+  }
+  .about-right {
+    order: 1;
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+  }
+  .why-card,
+  .why-head,
+  .menu-head,
+  .menu-list-left,
+  .menu-list-right,
+  .specials-head,
+  .spl-left,
+  .spl-right,
+  .spl-mid,
+  .events-head,
+  .event-left,
+  .event-right,
+  .book-head,
+  .testimonial-head,
+  .testimonial-cards,
+  .book-form,
+  .gallery-head,
+  .chefs-head,
+  .chef-container,
+  .contact-head,
+  .contact-left,
+  .footer-sec-cont {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .menu-cont .menu-head {
+    width: 100%;
+    margin: 0 0;
+  }
+  .menu-list-right {
+    margin-top: 20px;
+  }
+  .event-right h3 {
+    margin-top: 30px;
+  }
+  .why-card {
+    margin-bottom: 20px;
+    min-height: 300px;
+  }
+  .spl-left::after,
+  .test-card-none {
+    display: none;
+  }
+
+  .spl-right {
+    order: 2;
+  }
+  .spl-mid {
+    order: 3;
+  }
+
+  .btop-name,
+  .btop-email,
+  .btop-number,
+  .btop-date,
+  .btop-time,
+  .btop-people {
+    width: 100%;
+  }
+  .gallery-image {
+    width: 100%;
+  }
+  .chef-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .contact-right-form {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .ftop-name,
+  .ftop-email {
+    width: 100%;
+  }
+  .address-link,
+  .links-link,
+  .services-link,
+  .subscribe-link {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .links-link,
+  .services-link,
+  .subscribe-link {
+    margin-top: 30px;
+  }
+}
+/* mobile */
+@media all and (max-width: 576px) {
+  .wid-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .d-nav {
+    display: none !important;
+  }
+  .header-icon {
+    /* text-align: center; */
+    width: 95%;
+    margin: 0 auto;
+  }
+  .icon-left {
+    margin-left: 10px;
+  }
+  .icon-left span {
+    padding-right: 10px !important;
+  }
+  .banner-left {
+    width: 100%;
+    text-align: center;
+  }
+  .banner-left h2 {
+    font-size: 28px;
+  }
+  .banner-left h4 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  .banner-btn {
+    margin-left: 20px;
+    text-align: center;
+  }
+  .banner-right {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+  }
+  .about-left {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  .about {
+    min-height: 100vh;
+  }
+  .about-right {
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+  }
+  .why-card,
+  .menu-head,
+  .menu-list-left,
+  .menu-list-right,
+  .specials-head,
+  .spl-left,
+  .spl-right,
+  .spl-mid,
+  .events-head,
+  .event-left,
+  .event-right,
+  .book-head,
+  .testimonial-head,
+  .testimonial-cards,
+  .book-form,
+  .gallery-head,
+  .chefs-head,
+  .chef-container,
+  .contact-head,
+  .contact-left,
+  .footer-sec-cont {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .why-card {
+    margin-bottom: 20px;
+    min-height: 300px;
+  }
+  .spl-left::after,
+  .test-card-none {
+    display: none;
+  }
+
+  .spl-right {
+    order: 2;
+  }
+  .spl-mid {
+    order: 3;
+  }
+
+  .btop-name,
+  .btop-email,
+  .btop-number,
+  .btop-date,
+  .btop-time,
+  .btop-people {
+    width: 100%;
+  }
+  .gallery-image {
+    width: 100%;
+  }
+  .chef-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .contact-right-form {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .ftop-name,
+  .ftop-email {
+    width: 100%;
+  }
+  .address-link,
+  .links-link,
+  .services-link,
+  .subscribe-link {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .links-link,
+  .services-link,
+  .subscribe-link {
+    margin-top: 30px;
+  }
+}

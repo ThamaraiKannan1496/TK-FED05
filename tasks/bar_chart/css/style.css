@@ -1,0 +1,352 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 600px;
+  height: 400px;
+  background-color: wheat;
+  position: relative;
+}
+.top-buttons {
+  position: absolute;
+  z-index: 1;
+  top: 100px;
+  background-color: #c5c5c5;
+  border-radius: 20px;
+  padding: 10px 25px;
+}
+.top-buttons button {
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  border: none;
+  padding: 6px 12px;
+  margin-left: 8px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+.chart,
+.ground {
+  width: 100%;
+  height: 100%;
+}
+
+.chart {
+  /* overflow: hidden; */
+  position: relative;
+}
+
+.chart::before {
+  content: "";
+  position: absolute;
+  left: -30px;
+  right: 0;
+  bottom: -60px;
+  height: 60px;
+  width: 100%;
+  background-color: aquamarine;
+  transform: skewX(-45deg);
+}
+
+.chart::after {
+  content: "";
+  position: absolute;
+  left: -60px;
+  right: 0;
+  top: 30px;
+  bottom: -60px;
+  height: 100%;
+  width: 60px;
+  background-color: rgba(83, 118, 255, 0.7);
+
+  transform: skewY(-45deg);
+}
+
+.level {
+  height: calc(400px / 4);
+  width: 100%;
+  border-top: 1px solid gray;
+  overflow: hidden;
+}
+.bar-front,
+.bar-front1,
+.bar-front2,
+.bar-front3,
+.bar-front4,
+.bar-prod1f-1,
+.bar-prod1f-2,
+.bar-prod1f-3,
+.bar-prod1f-4,
+.bar-prod2f-1,
+.bar-prod2f-2,
+.bar-prod2f-3,
+.bar-prod2f-4,
+.bar-prod3f-1,
+.bar-prod3f-2,
+.bar-prod3f-3,
+.bar-prod3f-4,
+.bar-prod4f-1,
+.bar-prod4f-2,
+.bar-prod4f-3,
+.bar-prod4f-4 {
+  height: 400px;
+  width: 50px;
+  background-color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  content: "";
+  bottom: -40px;
+  left: 40px;
+}
+
+.bar-prod1f-1,
+.bar-prod1f-2,
+.bar-prod1f-3,
+.bar-prod1f-4,
+.bar-prod2f-1,
+.bar-prod2f-2,
+.bar-prod2f-3,
+.bar-prod2f-4,
+.bar-prod3f-1,
+.bar-prod3f-2,
+.bar-prod3f-3,
+.bar-prod3f-4,
+.bar-prod4f-1,
+.bar-prod4f-2,
+.bar-prod4f-3,
+.bar-prod4f-4 {
+  transform: translateY(450px);
+  /* background-color: rgb(255, 0, 0); */
+  /* z-index: 5; */
+}
+
+.bar-back,
+.bar-back1,
+.bar-back2,
+.bar-back3,
+.bar-prod1b-1,
+.bar-prod1b-2,
+.bar-prod1b-3,
+.bar-prod1b-4,
+.bar-prod2b-1,
+.bar-prod2b-2,
+.bar-prod2b-3,
+.bar-prod2b-4,
+.bar-prod3b-1,
+.bar-prod3b-2,
+.bar-prod3b-3,
+.bar-prod3b-4,
+.bar-prod4b-1,
+.bar-prod4b-2,
+.bar-prod4b-3,
+.bar-prod4b-4 {
+  height: 400px;
+  width: 50px;
+  background-color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  content: "";
+  bottom: -20px;
+  left: 60px;
+}
+.bar-prod1b-1,
+.bar-prod1b-2,
+.bar-prod1b-3,
+.bar-prod1b-4,
+.bar-prod2b-1,
+.bar-prod2b-2,
+.bar-prod2b-3,
+.bar-prod2b-4,
+.bar-prod3b-1,
+.bar-prod3b-2,
+.bar-prod3b-3,
+.bar-prod3b-4,
+.bar-prod4b-1,
+.bar-prod4b-2,
+.bar-prod4b-3,
+.bar-prod4b-4 {
+  transform: translateY(450px);
+  /* background-color: red; */
+}
+
+.bar-back1,
+.bar-prod1b-1,
+.bar-prod2b-1,
+.bar-prod3b-1,
+.bar-prod4b-1 {
+  left: 200px;
+}
+.bar-back2,
+.bar-prod1b-2,
+.bar-prod2b-2,
+.bar-prod3b-2,
+.bar-prod4b-2 {
+  left: 350px;
+}
+.bar-back3,
+.bar-prod1b-3,
+.bar-prod2b-3,
+.bar-prod3b-3,
+.bar-prod4b-3 {
+  left: 500px;
+}
+
+.bar-back::before,
+.bar-back1::before,
+.bar-back2::before,
+.bar-back3::before,
+.bar-prod1b-1::before,
+.bar-prod1b-2::before,
+.bar-prod1b-3::before,
+.bar-prod1b-4::before,
+.bar-prod2b-1::before,
+.bar-prod2b-2::before,
+.bar-prod2b-3::before,
+.bar-prod2b-4::before,
+.bar-prod3b-1::before,
+.bar-prod3b-2::before,
+.bar-prod3b-3::before,
+.bar-prod3b-4::before,
+.bar-prod4b-1::before,
+.bar-prod4b-2::before,
+.bar-prod4b-3::before,
+.bar-prod4b-4::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  right: 0;
+  top: 10px;
+  bottom: -60px;
+  height: 100%;
+  width: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+  transform: skewY(-45deg);
+}
+.bar-prod1b-1::before,
+.bar-prod1b-2::before,
+.bar-prod1b-3::before,
+.bar-prod1b-4::before,
+.bar-prod2b-1::before,
+.bar-prod2b-2::before,
+.bar-prod2b-3::before,
+.bar-prod2b-4::before,
+.bar-prod3b-1::before,
+.bar-prod3b-2::before,
+.bar-prod3b-3::before,
+.bar-prod3b-4::before,
+.bar-prod4b-1::before,
+.bar-prod4b-2::before,
+.bar-prod4b-3::before,
+.bar-prod4b-4::before {
+  transform: translateY(0px);
+  transform: skewY(-45deg);
+}
+.bar-front1,
+.bar-prod1f-1,
+.bar-prod2f-1,
+.bar-prod3f-1,
+.bar-prod4f-1 {
+  left: 180px;
+}
+.bar-front2,
+.bar-prod1f-2,
+.bar-prod2f-2,
+.bar-prod3f-2,
+.bar-prod4f-2 {
+  left: 330px;
+}
+
+.bar-front3,
+.bar-prod1f-3,
+.bar-prod2f-3,
+.bar-prod3f-3,
+.bar-prod4f-3 {
+  left: 480px;
+}
+.bar-front::after,
+.bar-front1::after,
+.bar-front2::after,
+.bar-front3::after,
+.bar-prod1f-1::after,
+.bar-prod1f-2::after,
+.bar-prod1f-3::after,
+.bar-prod1f-4::after,
+.bar-prod2f-1::after,
+.bar-prod2f-2::after,
+.bar-prod2f-3::after,
+.bar-prod2f-4::after,
+.bar-prod3f-1::after,
+.bar-prod3f-2::after,
+.bar-prod3f-3::after,
+.bar-prod3f-4::after,
+.bar-prod4f-1::after,
+.bar-prod4f-2::after,
+.bar-prod4f-3::after,
+.bar-prod4f-4::after {
+  content: "";
+  position: absolute;
+  left: 50px;
+  right: 0;
+  top: -10px;
+  bottom: -60px;
+  height: 100%;
+  width: 20px;
+  background-color: rgba(255, 255, 255, 0.4);
+  transform: skewY(-45deg);
+}
+.bar-prod1f-1::after,
+.bar-prod1f-2::after,
+.bar-prod1f-3::after,
+.bar-prod1f-4::after,
+.bar-prod2f-1::after,
+.bar-prod2f-2::after,
+.bar-prod2f-3::after,
+.bar-prod2f-4::after,
+.bar-prod3f-1::after,
+.bar-prod3f-2::after,
+.bar-prod3f-3::after,
+.bar-prod3f-4::after,
+.bar-prod4f-1::after,
+.bar-prod4f-2::after,
+.bar-prod4f-3::after,
+.bar-prod4f-4::after {
+  transform: translateY(0px);
+  transform: skewY(-45deg);
+}
+
+/* Hovering Part */
+.bt-none:hover {
+  background-color: cadetblue;
+  color: white;
+  border: 1px solid rebeccapurple;
+}
+
+/* product-1 */
+
+.bt-pd1:hover {
+  background-color: cadetblue;
+  color: white;
+  border: 1px solid rebeccapurple;
+}
+/* product-2 */
+.bt-pd2:hover {
+  background-color: cadetblue;
+  color: white;
+  border: 1px solid rebeccapurple;
+}
+/* product-3 */
+.bt-pd3:hover {
+  background-color: cadetblue;
+  color: white;
+  border: 1px solid rebeccapurple;
+}

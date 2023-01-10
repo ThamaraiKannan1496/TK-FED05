@@ -1,0 +1,296 @@
+/* XXL */
+@media (min-width: 1400px) {
+  .d-block {
+    display: block !important;
+  }
+}
+/* XL */
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .d-block {
+    display: block !important;
+  }
+  .container {
+    width: 95%;
+  }
+}
+/* Large */
+@media (min-width: 993px) and (max-width: 1200px) {
+  .d-block {
+    display: block !important;
+  }
+  .container {
+    width: 95%;
+  }
+  .nav-section .row > .col-lg-3 {
+    width: 13%;
+  }
+  .nav-section .row > .col-lg-9 {
+    width: 87%;
+  }
+  .cd-left {
+    width: 42%;
+  }
+  .cd-ryt {
+    width: 58%;
+  }
+  .card-left {
+    margin-top: -410px;
+  }
+  .card-ryt {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .card-section {
+    margin-bottom: -75px;
+  }
+  .contact-card {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    /* padding: 10px 10px; */
+  }
+  .cont-icon {
+    margin-left: 5px;
+  }
+}
+/* Medium */
+@media (min-width: 769px) and (max-width: 992px) {
+  .container {
+    width: 90%;
+  }
+  .row > * {
+    width: 100%;
+  }
+  .header-info .row > .col-lg-6 {
+    width: 75%;
+  }
+  .header-info .row > .col-lg-3 {
+    width: 25%;
+  }
+  /* banner */
+  .banner-cont {
+    height: 550px;
+  }
+  .card-ryt {
+    margin-top: 20px;
+  }
+  .card-section {
+    margin-bottom: -65px;
+  }
+  .image-left {
+    height: 500px;
+  }
+  .client-sec-cont .row > .col-lg-2 {
+    width: 25%;
+  }
+  .cli-md {
+    display: none;
+  }
+  .service-sec-cont .row > .col-lg-4 {
+    width: 50%;
+  }
+  .service-card-sec-cont .row > .col-lg-6 {
+    width: 50%;
+  }
+  .portfolio-sec-cont .row > .col-lg-4 {
+    width: 50%;
+  }
+  .team-sec-cont .row > .col-lg-3 {
+    width: 50%;
+  }
+  .pricing-sec-cont .row > .col-lg-3 {
+    width: 50%;
+    margin-top: 30px;
+  }
+  .contact-card {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 10px;
+  }
+  .cont-icon {
+    margin-left: 15px;
+  }
+  .cont-farm,
+  .contact-sec-cont {
+    padding-bottom: 10px;
+  }
+  .farm-top .row > .col-lg-6 {
+    width: 50%;
+  }
+  .footlink h4 {
+    margin-top: 15px;
+  }
+  .foot-link-sec-cont .row > .col-lg-4,
+  .col-lg-2 {
+    width: 50%;
+  }
+  .copy p {
+    text-align: center;
+  }
+  .media {
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+}
+/* Small */
+@media (min-width: 577px) and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+  .row > * {
+    width: 100%;
+  }
+  .info-btn {
+    display: none;
+  }
+  .contact-info {
+    display: flex;
+    justify-content: center;
+  }
+  .image-left {
+    height: 500px;
+  }
+  .card-ryt {
+    margin-top: 20px;
+  }
+  .card-section {
+    margin-bottom: -65px;
+  }
+  .client-sec-cont .row > .col-lg-2 {
+    width: 33%;
+  }
+  .cli-sm {
+    display: none;
+  }
+  .cli-reg {
+    display: block !important;
+  }
+  .mb-20 {
+    margin-bottom: 35px;
+  }
+  .contact-card {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+  }
+  .cont-icon {
+    margin-left: 15px;
+  }
+  .cont-farm,
+  .contact-sec-cont {
+    padding-bottom: 10px;
+  }
+  .faq-sec-cont {
+    padding: 40px 0px;
+  }
+  .faq-list-item {
+    padding: 0;
+  }
+  .left-faq-icon {
+    font-size: 14px;
+  }
+
+  .footlink h4 {
+    margin-top: 15px;
+  }
+  .copy p {
+    text-align: center;
+  }
+  .media {
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+}
+
+/* Extra Small */
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+  .row > * {
+    width: 100%;
+  }
+  .info-btn {
+    display: none;
+  }
+  .contact-info {
+    display: flex;
+    justify-content: center;
+  }
+  .banner-cont {
+    height: 550px;
+  }
+  .banner-info h2 {
+    font-size: 24px;
+  }
+  .banner-info h3 {
+    font-size: 18px;
+  }
+  .card-ryt {
+    margin-top: 20px;
+  }
+  .card-section {
+    margin-bottom: -65px;
+  }
+
+  .image-left {
+    height: 500px;
+  }
+  .img-info-p {
+    padding: 0 !important;
+  }
+  .cont-right {
+    padding: 30px 0px 0px 0px !important;
+  }
+
+  .client-sec-cont .row > .col-lg-2 {
+    width: 30%;
+    margin: 0 auto;
+  }
+  .cli-sm {
+    display: none;
+  }
+
+  .service-sec-cont {
+    padding-bottom: 0;
+  }
+  .mb-20 {
+    margin-bottom: 35px;
+  }
+  .contact-card {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+  }
+  .cont-icon {
+    margin-left: 15px;
+  }
+  .cont-farm,
+  .contact-sec-cont {
+    padding-bottom: 10px;
+  }
+  .faq-sec-cont {
+    padding: 40px 0px;
+  }
+  .faq-list-item {
+    padding: 0;
+  }
+  .left-faq-icon {
+    font-size: 14px;
+  }
+
+  .footlink h4 {
+    margin-top: 15px;
+  }
+  .copy p {
+    text-align: center;
+  }
+  .media {
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 0px;
+  }
+}
